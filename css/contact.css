@@ -1,0 +1,102 @@
+header {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-bar {
+    float: right;
+    background-image: url(..img\460e0277-933c-452d-8251-942e30f1234b_200x200.png);
+    width: 300px;
+    height: 100px;
+}
+
+.nav-list {
+    position: inline-block;
+
+}
+
+.list_item {
+    color: black;
+    position: relative;
+    float: right;
+
+}
+
+.hero {
+    background-image: url(../img/sensewithdata.png);
+    width: 200px;
+    height: 100px;
+    border: 3px solid #000000;
+    position: relative;
+    top: 300px;
+    left: 43%;
+}
+ 
+.hero-content {
+    background-color: peachpuff;
+    height: 100px;
+    width: 100%;
+    border: 3px solid palegoldenrod;
+}
+
+/* .hero-content h1 {
+    text-align: center;
+    top: 50%;
+} */
+
+ .home-content {
+    height: 724px;
+    width: 100%;
+} 
+
+.content-img {
+    position: inline-block;
+    width: 48%;
+    height: 700px;
+    float: left;
+    border: solid 15px greenyellow;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: navajowhite;
+    background-image: url(..img\b28d988a70587f0e1b4fb1a3bc260bd2.jpg);
+}
+
+.content-text {
+    position: inline-block;
+    height: 700px;
+    width: 48%;
+    font-family: 'Bungee Outline', cursive;
+    float: right;
+}
+
+.footer-col {
+    position: relative;
+    height: 300px;
+    width: 33.33%;
+    background-color: black;
+    float: left;
+    color: white;
+}
+
+
+.col1 {
+    display: block;
+    margin-top: 15px;
+}
+
+.col2 {
+ background-color: salmon;
+}
+
+.col3 {
+
+}

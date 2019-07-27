@@ -1,0 +1,169 @@
+
+body {
+    height: 1930px;
+    width: 100%;
+    margin: 0px;
+    background-color: blanchedalmond;
+    font-family: 'Raleway', sans-serif;
+}
+
+ header {
+    top: 0;
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+} 
+
+.nav-bar {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    float: left;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+}
+
+.header-nav-img {
+    float: right;
+    height: 200px;
+    width: 30%;
+    
+} 
+
+ .nav-list{
+    display: inline;
+    right: 100px;
+    justify-content: left;
+    height: 200px;
+    width: 100%;
+
+} 
+
+.list-item {
+    float: left;
+    margin-right: 18px;
+    list-style-type: none;
+    height: 15px;
+    width: 250px;
+    font-size: 3.5em;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.logo {
+    width: 300px;
+    margin: 0px;
+} 
+
+.default-logo {
+    width: auto;
+    line-height: 22px;
+    float: left;
+    z-index: 2;
+    margin: 0px 30px;
+}
+
+.list_item {
+    color: black;
+    position: relative;
+    float: right;
+}
+
+.hero-content {
+    position: relative;
+    background: transparent;
+}
+
+.hero-content h1 {
+    z-index: 2;
+    position: absolute;
+    top: 175px;
+    left: 120px;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 100px;
+    height: 120px;
+    width: 1000px;
+    color: white;
+    } 
+
+.hero-content .content-text-box{
+    top: 500px;
+    right: 200px;
+    z-index: 2;
+    height: 600px;
+    width: 700px;
+    background-color: white;
+    position: relative;
+    opacity: .5;
+    border: 3px solid white;
+    margin: 30px;
+    float: right;
+}
+
+.hero-content .content-text {
+    z-index: 3;
+    width: 80%;
+    margin: 10%;
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.hero-content .fresno-img {
+    z-index: 1;
+    position: absolute;
+}
+
+footer {
+    z-index: 4;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -658px;
+}
+
+
+.footer-col {
+    position: relative;
+    height: 300px;
+    width: 33.33%;
+    background-color: rgb(245, 233, 231);
+    float: left;
+    color: black;
+}
+
+.input {
+    padding: 10%;
+}
+
+input, button {
+    padding: 2em;
+  }
+
+.center-icons{
+    position: absolute;
+}
+
+.fab {
+    font-size: 9em;
+    text-align: right;
+}
+
+.col2 {
+    
+
+}
+
+.col3 {
+   font-size: 3em;
+    
+} 
