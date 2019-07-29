@@ -1,59 +1,74 @@
-
 body {
     height: 1930px;
     width: 100%;
     margin: 0px;
-    background-color: blanchedalmond;
-    font-family: 'Raleway', sans-serif;
+    background-color: #fffffc;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
  header {
     top: 0;
     width: 100%;
     height: 200px;
-    background-color: whitesmoke;
     border-style: solid;
-    border-color: black;
+    border-color: #2E2E2E;
 } 
 
 .nav-bar {
     width: 100%;
     height: 200px;
-    background-color: white;
+    background-color: #fffffc;
     float: left;
     position: relative;
     padding: 0%;
     margin: 0%;
 }
 
+.logo-container {
+    position: relative;
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+.nav-list{
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    padding: 0%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;   
+} 
+
+.nav-img-container {
+    /* position: relative; */
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+.nav-list .list-item {
+    padding-top: 55px;
+    height: 15px;
+    width: 250px; 
+    font-size: 3.5em;
+    color: #2e2e2e;
+    font-family: 'Open Sans';
+}
+
 .header-nav-img {
     float: right;
-    height: 200px;
-    width: 30%;
-    
-} 
-
- .nav-list{
-    display: inline;
-    right: 100px;
-    justify-content: left;
+    clear: left;
     height: 200px;
     width: 100%;
-
+    /* right: 0; */
 } 
-
-.list-item {
-    float: left;
-    margin-right: 18px;
-    list-style-type: none;
-    height: 15px;
-    width: 250px;
-    font-size: 3.5em;
-    text-align: center;
-    position: relative;
-    top: 100px;
-    left: 300px;
-}
 
 .logo {
     width: 300px;
@@ -66,12 +81,6 @@ body {
     float: left;
     z-index: 2;
     margin: 0px 30px;
-}
-
-.list_item {
-    color: black;
-    position: relative;
-    float: right;
 }
 
 .hero {
@@ -121,25 +130,46 @@ body {
     float: right;
 }
 
+footer {
+    z-index: 4;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -658px;
+}
+
+
 .footer-col {
     position: relative;
     height: 300px;
     width: 33.33%;
-    background-color: rgb(245, 233, 231);
+    background-color: #fffffc;
     float: left;
-    color: black;
+    color: #2E2E2E;
+}
+
+.footer-nav-img {
+    transform: rotateY(180deg);    
+}
+
+.center-icons{
+    /* position: absolute; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab, .fas {
+    font-size: 9em;
+    text-align: right;
+    color: #2e2e2e
 }
 
 
-.col1 {
-    display: block;
-    margin-top: 15px;
-}
-
-.col2 {
- background-color: salmon;
-}
 
 .col3 {
-
-}
+   font-size: 3em;
+    
+} 
